@@ -1,0 +1,13 @@
+.cache
+CMakeFiles
+build
+vcpkg_installed
+*.exe
+*.pdb
+*.dll
+*.vim
+CMakeCache.txt
+CMakePresets.json
+cmake_install.cmake
+compile_commands.json
+.ninja_deps
