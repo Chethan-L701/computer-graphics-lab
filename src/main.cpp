@@ -3,6 +3,6 @@
 #include <CGLab.hpp>
 
 int main(int argc, char *argv[]) {
-    Basic::execute(argc, argv);
+    BresenhamLine::execute(argc, argv);
     return 0;
 }

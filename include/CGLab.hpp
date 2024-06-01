@@ -2,8 +2,11 @@
 #include <GL/glut.h>
 
 namespace Basic {
+    int execute(int argc, char *argv[]);
     void drawTringle();
     void drawRectangle();
     void emptyDisplay();
-    int execute(int argc, char *argv[]);
 } // namespace Basic
+namespace BresenhamLine {
+    int execute(int argc, char *argv[]);
+}
