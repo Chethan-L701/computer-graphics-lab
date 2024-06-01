@@ -1,6 +1,6 @@
 {
-  "dependencies": [
-    "freeglut",
-    "fmt"
-  ]
+    "dependencies": [
+        "freeglut",
+        "fmt"
+    ]
 }

@@ -3,6 +3,6 @@
 #include <CGLab.hpp>
 
 int main(int argc, char *argv[]) {
-    BresenhamLine::execute(argc, argv);
+    Transformations2D::execute(argc, argv);
     return 0;
 }

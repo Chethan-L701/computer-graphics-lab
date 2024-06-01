@@ -7,6 +7,11 @@ namespace Basic {
     void drawRectangle();
     void emptyDisplay();
 } // namespace Basic
+
 namespace BresenhamLine {
+    int execute(int argc, char *argv[]);
+}
+
+namespace Transformations2D {
     int execute(int argc, char *argv[]);
 }
