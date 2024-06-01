@@ -7,7 +7,9 @@ choiceloop:
                             "1. Basics\n"
                             "2. Bresenham's line\n"
                             "3. 2D Transformations\n"
-                            "4. 3D Transformations\n");
+                            "4. 3D Transformations\n"
+                            "5. Exit");
+
     int choice{};
     std::cin >> choice;
     switch (choice) {
@@ -22,6 +24,9 @@ choiceloop:
         break;
     case 4:
         Transformations3D::execute(argc, argv);
+        break;
+    case 5:
+        std::exit(0);
         break;
     default:
         std::println(std::cout, "Invalid Choice!");
