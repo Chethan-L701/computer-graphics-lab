@@ -15,3 +15,7 @@ namespace BresenhamLine {
 namespace Transformations2D {
     int execute(int argc, char *argv[]);
 }
+
+namespace Transformations3D {
+    int execute(int argc, char *argv[]);
+}

@@ -74,7 +74,7 @@ namespace Transformations2D {
         glutInit(&argc, argv);
         glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
         glutInitWindowSize(windowWidth, windowHeight);
-        glutCreateWindow("Geometric Operations in 2D");
+        glutCreateWindow("2D Transformations");
 
         glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
         glMatrixMode(GL_PROJECTION);
