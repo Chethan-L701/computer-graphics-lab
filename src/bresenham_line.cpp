@@ -2,15 +2,7 @@
 #include <iostream>
 
 namespace BresenhamLine {
-    struct Point2D {
-        int x;
-        int y;
-        Point2D() : x{0}, y{0} {}
-        Point2D(int x, int y) : x{x}, y{y} {}
-        Point2D operator-(Point2D dif) { return Point2D(abs((*this).x - dif.x), abs((*this).y - dif.y)); }
-        bool operator==(Point2D target) { return ((*this).x == target.x && (*this).y == target.y); }
-    };
-
+    using Point2D = Basic::Point2D;
     Point2D from, to;
 
     auto getCords() {

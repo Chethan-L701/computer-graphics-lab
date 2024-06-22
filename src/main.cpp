@@ -8,7 +8,8 @@ choiceloop:
                             "2. Bresenham's line\n"
                             "3. 2D Transformations\n"
                             "4. 3D Transformations\n"
-                            "5. Exit");
+                            "5. 2D Transformations : implementation\n"
+                            "6. Exit");
 
     int choice{};
     std::cin >> choice;
@@ -26,8 +27,10 @@ choiceloop:
         Transformations3D::execute(argc, argv);
         break;
     case 5:
-        std::exit(0);
+        Impl2DTransforms::execute(argc, argv);
         break;
+    case 6:
+        std::exit(0);
     default:
         std::println(std::cout, "Invalid Choice!");
         goto choiceloop;

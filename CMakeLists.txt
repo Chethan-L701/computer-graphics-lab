@@ -9,6 +9,6 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED on)
 
 find_package(GLUT REQUIRED)
-add_executable(${PROJECT_NAME} src/main.cpp src/basic.cpp src/bresenham_line.cpp src/transforms_2d.cpp src/transforms_3d.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp src/basic.cpp src/bresenham_line.cpp src/transforms_2d.cpp src/transforms_3d.cpp src/impl_transforms_2d.cpp)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE GLUT::GLUT)

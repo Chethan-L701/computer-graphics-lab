@@ -2,8 +2,8 @@
 
 namespace Transformations2D {
 
-    int windowWidth = 800;
-    int windowHeight = 600;
+    constexpr int windowWidth = 800;
+    constexpr int windowHeight = 600;
     float rectWidth = 200.0f;
     float rectHeight = 100.0f;
     float rectPositionX = (windowWidth - rectWidth) / 2.0f;

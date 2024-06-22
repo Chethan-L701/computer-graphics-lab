@@ -2,8 +2,8 @@
 
 namespace Transformations3D {
 
-    int width = 800;
-    int height = 600;
+    constexpr int width = 800;
+    constexpr int height = 600;
     GLfloat rotationX = 0.0f;
     GLfloat rotationZ = 0.0f;
     GLfloat rotationY = 0.0f;
